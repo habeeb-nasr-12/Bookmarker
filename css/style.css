@@ -1,0 +1,59 @@
+.form-project,
+table {
+    background-color: #eee;
+
+}
+
+.container h1::after {
+    content: "";
+    animation:typing 2s alternate infinite ;
+    -webkit-animation:typing 2s alternate infinite ;
+}
+
+@keyframes typing {
+    0%{
+        content: "|";
+
+    }
+   
+    5%{
+        content: "B|";
+
+    }
+    10%{
+        content: "Bo|";
+
+    }
+    20%{
+        content: "Boo|";
+
+    }
+    40%{
+        content: "Book|";
+
+    }
+    50%{
+        content: "BookM|";
+
+    }
+    60%{
+        content: "BookMa|";
+
+    }
+    70%{
+        content: "BookMa|";
+
+    }
+    80%{
+        content: "BookMar|";
+
+    }
+    90%{
+        content: "BookMark|";
+
+    }
+    100%{
+        content: "BookMarker|";
+
+    }
+}
